@@ -3,6 +3,8 @@ INPUT_KML = "data/input/Mty.kml"
 INPUT_TXT = "data/input/Mty_altitud.txt"
 RESOLUCION = 500
 N_PUNTOS = 5000
+MIN_ALTITUDE = 500
+MAX_ALTITUDE = 2000
 
 MODEL_CONFIG = {
     "colorscale": "Earth",
