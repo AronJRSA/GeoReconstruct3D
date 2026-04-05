@@ -143,6 +143,20 @@ Reconstrucción final del terreno en 3D
 * Interactive visualization (Plotly)
 * Algorithm optimization
 
+```text
+├── config/
+│   └── settings.py      # Parámetros globales e ID selection
+├── data/
+│   ├── raw/             # Insumos originales (SHP, KML, TXT)
+│   └── output/          # Resultados generados
+├── modules/
+│   ├── ingestion.py     # Limpieza de datos y SHP processing
+│   ├── modeling.py      # Lógica de Monte Carlo e Interpolación
+│   └── visualization.py # Generación de visuales 3D y Contornos
+├── main.py              # Script principal de ejecución
+└── README.md            # Documentación
+
+
 ---
 
 ##  Author
