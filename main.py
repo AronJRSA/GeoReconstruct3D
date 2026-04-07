@@ -1,17 +1,3 @@
-
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Apr  4 23:40:00 2026
-@author: asron (The Insaciable)
-Main - Sistema de Reconstrucción 3D Interactiva
-"""
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Apr  4 23:55:00 2026
-@author: asron
-Main - Sistema de Reconstrucción de Terreno Pro
-"""
-
 import os
 import simplekml
 import shapely.geometry as geom
